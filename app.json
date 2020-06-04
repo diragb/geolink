@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "geolink-expo",
-    "slug": "geolink-expo",
+    "name": "GeoLink",
+    "slug": "geolink",
     "platforms": [
       "ios",
       "android",
@@ -23,6 +23,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "GeoLink is a mobile app that allows users to connect to their friends using Bluetooth, and share messages via the GeoLink grid.",
+    "githubUrl": "https://github.com/diragb/geolink-expo"
   }
 }
