@@ -1,19 +1,23 @@
+// Packages:
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { Text } from "react-native";
+import styled from "styled-components";
 
-export default function App() {
+// Styles:
+const Wrapper = styled.View`
+  flex: 1;
+  background-color: #74b9ff;
+  align-items: center;
+  justify-content: center;
+`;
+
+// Functions:
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>Wow.</Text>
-    </View>
+    <Wrapper>
+      <Text>Woo.</Text>
+    </Wrapper>
   );
-}
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#aaa",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
+export default App;
