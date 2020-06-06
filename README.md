@@ -2,7 +2,7 @@
 
 GeoLink is a mobile app that allows users to connect to their friends using Bluetooth, and share messages via the GeoLink grid.
 
-This repo contains the Expo/React Native codebase.
+This repo contains the React Native codebase.
 
 # How does it work? 🤔
 
