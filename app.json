@@ -22,9 +22,14 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.geolink.app"
     },
     "description": "GeoLink is a mobile app that allows users to connect to their friends using Bluetooth, and share messages via the GeoLink grid.",
-    "githubUrl": "https://github.com/diragb/geolink-expo"
+    "githubUrl": "https://github.com/diragb/geolink-expo",
+    "android": {
+      "package": "com.geolink.app"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
   }
 }
